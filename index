@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ne">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>मेवा खेती (Papaya Farming)</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; background-color: #f4f4f4; padding: 50px; }
+        h1 { color: #e67e22; }
+        p { font-size: 18px; color: #333; }
+    </style>
+</head>
+<body>
+    <h1>मेवा खेती वेबसाइटमा तपाईंलाई स्वागत छ!</h1>
+    <p>यहाँ हामी आधुनिक र व्यावसायिक मेवा खेती गर्ने सजिला तरिकाहरू सिक्नेछौँ।</p>
+</body>
+</html>
