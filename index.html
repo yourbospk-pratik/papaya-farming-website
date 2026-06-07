@@ -3,15 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>मेवा खेती (Papaya Farming)</title>
+    <title>MewaXchange - Biggest Online Papaya Marketplace</title>
     <style>
-        body { font-family: Arial, sans-serif; text-align: center; background-color: #f4f4f4; padding: 50px; }
-        h1 { color: #e67e22; }
-        p { font-size: 18px; color: #333; }
+        body { font-family: 'Arial', sans-serif; margin: 0; padding: 0; background-color: #f9f9f9; }
+        header { background: #fff; padding: 15px 5%; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        .logo { font-size: 24px; font-weight: bold; color: #2e7d32; }
+        .logo span { color: #fbc02d; }
+        nav a { margin-left: 20px; text-decoration: none; color: #333; font-weight: bold; }
+        .hero { background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1528826722202-e3d98b54f981') center/cover; height: 70vh; display: flex; flex-direction: column; justify-content: center; align-items: center; color: white; text-align: center; padding: 0 20px; }
+        .hero h1 { font-size: 42px; margin-bottom: 10px; }
+        .categories { padding: 50px 5%; text-align: center; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-top: 30px; }
+        .card { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); text-align: center; transition: 0.3s; border-bottom: 4px solid #2e7d32; }
+        .card:hover { transform: translateY(-5px); }
+        .card h3 { color: #2e7d32; }
+        .btn { background: #2e7d32; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold; }
+        .btn:hover { background: #1b5e20; }
     </style>
 </head>
 <body>
-    <h1>मेवा खेती वेबसाइटमा तपाईंलाई स्वागत छ!</h1>
-    <p>यहाँ हामी आधुनिक र व्यावसायिक मेवा खेती गर्ने सजिला तरिकाहरू सिक्नेछौँ।</p>
+
+    <header>
+        <div class="logo">Mewa<span>Xchange</span></div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Produce</a>
+            <a href="#">Reports</a>
+            <a href="#" class="btn" style="color:white; padding:5px 15px;">Register</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>WELCOME TO MEWAXCHANGE</h1>
+        <p style="font-size: 20px;">Your Premium Produce Marketplace Where Buyers Meet Sellers</p>
+        <br>
+        <a href="#" class="btn" style="background:#fbc02d; color:#333;">Explore Listings</a>
+    </section>
+
+    <section class="categories">
+        <h2>Our Produce Categories</h2>
+        <p>नेपालभरिका उत्कृष्ट जातका मेवाहरू</p>
+        <div class="grid">
+            <div class="card">
+                <h3>RED LADY 786</h3>
+                <p>उत्कृष्ट स्वाद र धेरै माग भएको वैदेशिक जात।</p>
+            </div>
+            <div class="card">
+                <h3>PUSA DWARF</h3>
+                <p>होचो बोटमा धेरै फल्ने व्यावसायिक जात।</p>
+            </div>
+            <div class="card">
+                <h3>LOCAL ORGANIIC</h3>
+                <p>घरगाउँको रैथाने र प्राङ्गारिक मेवा।</p>
+            </div>
+        </div>
+    </section>
+
 </body>
 </html>
